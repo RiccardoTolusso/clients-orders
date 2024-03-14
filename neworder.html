@@ -11,17 +11,16 @@
         <!-- nav bar [HOME (pagina con ordini e barra di ricerca clienti), GIFT CARD, ORDINATI, DA ORDINARE] -->
         <div class="links">
             <a href="http://127.0.0.1:5500/index.html">HOME</a> <!-- La pagina dove mostra gli ordini da ritirare e i problemi-->
-            <a href="">GIFT CARD</a>
-            <a href="">ORDINATI</a>
-            <a href="">DA ORDINARE</a>
-            <a href="http://127.0.0.1:5500/neworder.html">NUOVO ORDINE</a>
-        </div>    
-    </div>
+            <a href="http://127.0.0.1:5500/giftcard.html">GIFT CARD</a>
+            <a href="http://127.0.0.1:5500/ordered.html">ORDINATI</a>
+            <a href="http://127.0.0.1:5500/toorder.html">DA ORDINARE</a>
+            <a href="http://127.0.0.1:5500/neworder.html">NUOVO ORDINE</a>        </div>    
+        </div>
     <div class="layer"></div> <!-- aggiunge un layer grigio al bg -->
     <div class="home"> 
         <form action="" class="new-order" autocomplete="on">
-            <input type="text" placeholder="Prodotto" class="prodotto">
-            <textarea placeholder="Note" class="note"></textarea>
+            <input type="text" placeholder="Prodotto (Tipologia, Modello, Colore)" class="prodotto" required>
+            <textarea placeholder="Note (cosa potrebbe essere utile sapere alle colleghe?)" class="note"></textarea>
             <input type="tel" placeholder="Numero di Cellulare" class="phone" required>
             <button type="submit">Salva Ordine</button>
         </form>
