@@ -19,10 +19,11 @@
     </div>
     <div class="layer"></div> <!-- aggiunge un layer grigio al bg -->
     <div class="home"> 
-        <form action="" class="new-order">
-            <input type="text" placeholder="Prodotto">
-            <input type="text" placeholder="Note">
-            <input type="text" placeholder="phone number">
+        <form action="" class="new-order" autocomplete="on">
+            <input type="text" placeholder="Prodotto" class="prodotto">
+            <textarea placeholder="Note" class="note"></textarea>
+            <input type="tel" placeholder="Numero di Cellulare" class="phone" required>
+            <button type="submit">Salva Ordine</button>
         </form>
     </div>
 </div>

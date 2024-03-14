@@ -135,13 +135,20 @@
 /*
 --------------  NEW ORDER -----------------
 */
-
-.new-order > input{
+/* HOME HEIGHT = 85VH*/
+.new-order > input, .new-order>textarea, .new-order>button{
     display: block;
     margin: auto;
     width: 60%;
     height: 5vh;
+    text-align: center;
+    margin-top: 5vh;
 }
+.new-order > .note{
+    height: 45vh;
+    white-space: normal;
+}
+
 
 
 
